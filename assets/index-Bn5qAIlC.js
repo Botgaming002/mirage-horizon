@@ -1,1 +1,1 @@
-[compiled app js, text encoded pending upload]
+compiled js unavailable
