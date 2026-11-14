@@ -1,0 +1,1 @@
+[build asset encoding test]
