@@ -1,1 +1,1 @@
-compiled js unavailable
+[compiled game JavaScript file could not be injected in this call]
