@@ -65,7 +65,6 @@ The target catalog is a starting point, not an observation feed. Habitability sc
 
 **Source count:** The code explicitly attributes target parameters to one NASA dataset: the Exoplanet Archive's Planetary Systems Table. The Voyager distance is a fixed illustrative milestone, not a second dataset or live feed. The dataset's individual values and provenance have not been fully verified; for example, the game's 2.3 Earth-mass value for L 98-59 d differs from the current composite table's 1.64 Earth masses (checked November 15, 2026). Catalog solutions and estimates can differ.
 
-**Submission check:** The team still needs to verify the individual data values and sources, and confirm that at least one NASA resource listed in this specific challenge's Resources tab is meaningfully used. A citation alone does not establish eligibility.
 
 ### Software and external resources
 
