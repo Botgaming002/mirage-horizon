@@ -138,4 +138,4 @@ mirage-horizon/
 
 ### AI disclosure
 
-OpenWork's AI assistant helped with repository redesign/deployment and README documentation. The team should document any other AI tools or contributions used in creating the submitted game.
+OpenWork's AI and google antigravity assistant helped with repository redesign/deployment,README documentation and game's source code.
