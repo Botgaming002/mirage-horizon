@@ -1,13 +1,16 @@
 # 🚀 MIRAGE HORIZON: Solar Gravitational Lens Mission Simulator
 
 [![NASA Space Apps Challenge](https://img.shields.io/badge/NASA%20Space%20Apps-Challenge%20Project-0b3d91.svg)](https://www.spaceappschallenge.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![React 18](https://img.shields.io/badge/React-18.3-61dafb.svg)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-6.0-646cff.svg)](https://vitejs.dev/)
 
 **MIRAGE HORIZON** is an interactive, browser-playable space mission design game created for the **NASA Space Apps Challenge: Space Mission Design Game**.
 
-Instead of a passive website, *Mirage Horizon* puts the player in the role of Mission Commander to design, launch, and execute a deep-space expedition to the **Solar Gravitational Lens (SGL)** focal line at **650 AU**. Utilizing our Sun's massive gravitational field as a natural cosmic magnifying glass, the mission seeks to resolve humanity's first surface portrait and atmospheric biosignatures of a distant exoplanet,to play on github page please visit https://botgaming002.github.io/mirage-horizon/.
+As Mission Commander, design, launch, and operate a simulated expedition to the **Solar Gravitational Lens (SGL)** focal region at **650 AU**. Balance payload, mass, power, propulsion and budget while exploring a hypothetical exoplanet-imaging mission.
+
+**[▶ Play Mirage Horizon](https://botgaming002.github.io/mirage-horizon/)** · [Space Mission Design Game challenge](https://www.spaceappschallenge.org/2026/challenges/space-mission-design-game/)
+
+> **Simulation disclosure:** This is an educational game, not mission-planning software. Its trajectories, engineering values, scores, planetary surfaces, atmospheric results and biosignatures are simulated or illustrative—not real observations or engineering predictions.
 
 ---
 
@@ -26,12 +29,12 @@ The game is structured as a continuous 9-phase mission lifecycle:
 1. **Homepage:** Cinematic game menu with real-time canvas starfields, glowing Einstein Ring corona diffraction, procedural audio synthesizer, and quick-start actions.
 2. **Storyline:** Visual novel narrative featuring Director Maria Chen and Dr. Elena Vasquez detailing why existing space telescopes hit diffraction limits and how the Sun acts as an optical amplifier.
 3. **Tutorial:** Step-by-step interactive diagrams teaching relativistic gravitational lensing, the 550–650 AU focal baseline, spacecraft staging rules, and trade-off mechanics.
-4. **Mission Brief:** Strategic classified docket with 3 target exoplanets from the NASA Exoplanet Archive (LHS 1140 b, L 98-59 d, GJ 357 b), focal distance & budget sliders, objectives checklist, and risk matrix.
-5. **Rocket Customization (Spaceflight Simulator Style):** Drag-and-drop vertical assembly hangar. Mount fairings, science payloads (coronagraph, spectrometer, polarimeter), power sources (MMRTG, fission reactor, solar), antennas, propellant tanks, and high-thrust/ion engines. Live telemetry validates Thrust-to-Weight Ratio (TWR > 1.0), electrical power margin, and budget.
+4. **Mission Brief:** Choose from three target exoplanets (LHS 1140 b, L 98-59 d, GJ 357 b), set focal distance and budget, and review mission objectives and risks.
+5. **Rocket Customization (Spaceflight Simulator Style):** Assemble fairings, a command core, propellant tanks, engines and power components. The hangar shows modeled thrust-to-weight ratio, delta-v, power checks and cost.
 6. **Launching & Flying:** Interactive T-minus 10s countdown, throttle control, atmospheric ascent with fire/smoke particle physics, stage separation, and 2D orbital cruise map across Mars, Jupiter (gravity assist slingshot), Neptune, and Voyager 1 to 650 AU.
-7. **Einstein Ring Experiment:** The scientific climax! Coronagraph Lyot mask occults the Sun. Players use directional reaction thrusters to center telescope crosshairs on the focal line, apply multi-spectral filters (Visible, Thermal IR, Spectrometer), and integrate photon exposures to deconvolve the exoplanet's surface.
-8. **Back to Earth:** Deep Space Network (DSN) telemetry transmission across 650 AU with real-time 3.7-day light delay visualization, packet stream flow, and ground station antenna locking.
-9. **Data Analysis of the Result:** Comprehensive mission scoring (0–100 with Grade S/A/B/C/D), reconstructed surface map showing continents and ocean glint, atmospheric chemical breakdown (N₂, O₂, H₂O, CO₂, CH₄ biosignatures), habitability index, and engineering trade-off debrief.
+7. **Einstein Ring Experiment:** Use a simulated coronagraph, alignment controls and spectral filters to produce an illustrative reconstruction.
+8. **Back to Earth:** A simulated Deep Space Network transmission visualizes the long light-travel delay and packet stream.
+9. **Data Analysis of the Result:** Review a simulated score, synthetic surface map, illustrative atmospheric breakdown and engineering trade-offs.
 
 ---
 
@@ -39,21 +42,34 @@ The game is structured as a continuous 9-phase mission lifecycle:
 
 Inspired by *Spaceflight Simulator* and *Kerbal Space Program*, the customization hangar features:
 - **Full Drag-and-Drop & Click-to-Equip:** Drag parts from the inventory onto vertical stage slots or click to mount automatically.
-- **Physical Staging Balance:**
+- **Simplified Staging Balance:**
   - **Thrust-to-Weight Ratio ($TWR$):** Rocket must produce enough thrust ($F / mg > 1.0$) to overcome Earth gravity.
   - **Electrical Balance:** Deep-space instruments consume watts continuously. Solar arrays fade drastically past Jupiter ($1/r^2$), requiring Plutonium MMRTGs or compact fission reactors.
-  - **Mass vs Delta-V:** Excessive mass slows down the 40-year interstellar cruise.
+  - **Mass vs Delta-V:** Adding mass affects the modeled vehicle's performance.
   - **Financial Discipline:** Stay within the Coalition budget limit.
-- **1-Click Pre-Built Templates:** Quick-start with *Explorer Prime (Balanced)*, *Optical Courier (Fast Transit)*, or *Heavy Science Titan*.
 
 ---
 
-## 🔬 Scientific Background & Data Sources
+## 🔬 Data, attribution & simulation limits
 
-- **Solar Gravitational Lens (SGL):** Under General Relativity, the Sun's mass bends light grazing its limb to a focal axis beginning at $\sim 550\text{ AU}$. At $650\text{ AU}$, solar corona plasma noise is reduced, enabling a magnification factor of $\sim 10^{11}$—theoretically capable of resolving $\sim 10\text{ km}$ surface features on an exoplanet 40 light-years away.
-- **NASA Exoplanet Archive:** Planetary targets (LHS 1140 b, L 98-59 d, GJ 357 b) incorporate catalog radius, mass, stellar type, equilibrium temperature, and orbital period data (Table DOI: [10.26133/NEA12](https://doi.org/10.26133/NEA12)).
-- **NASA Horizons & Voyager Telemetry:** Mission flight milestones reflect historical Voyager 1 trajectory scales (Heliopause crossing at $\sim 120\text{ AU}$, current distance $\sim 160\text{ AU}$).
-- *Disclosure:* Component specifications, orbital trajectories, and procedurally reconstructed surface images are educational simulation models created for gameplay.
+| Resource | How it relates to the game | Attribution / use conditions |
+| --- | --- | --- |
+| [NASA Exoplanet Archive — Planetary Systems Table](https://doi.org/10.26133/NEA12) | `src/data.js` includes hard-coded target names and planetary parameters and identifies this table as their source. These values are not fetched live; their individual source references and dates still need verification. | [Archive acknowledgment guidance](https://exoplanetarchive.ipac.caltech.edu/docs/acknowledge.html); acknowledge the underlying literature for each verified value. |
+| [NASA Voyager mission](https://science.nasa.gov/mission/voyager/) | The tutorial and flight view use an approximate 160 AU Voyager 1 milestone for scale; it is not live telemetry. | [NASA media usage guidelines](https://www.nasa.gov/nasa-brand-center/images-and-media/). |
+| [Space Mission Design Game challenge](https://www.spaceappschallenge.org/2026/challenges/space-mission-design-game/) | The challenge frames the mission-design and resource-tradeoff objective. | Check the challenge's **Resources** tab and its applicable terms. |
+
+The target catalog is a starting point, not an observation feed. Habitability scores, atmosphere descriptions, rocket-part specifications, orbital paths, reconstructions and mission outcomes are game models or narrative assumptions. The displayed planet images and biosignatures are **not evidence of a real exoplanet surface or life**.
+
+**Archive acknowledgment:** This project refers to the NASA Exoplanet Archive, operated by the California Institute of Technology under contract with NASA under the Exoplanet Exploration Program. See the [archive's requested acknowledgment and citation](https://exoplanetarchive.ipac.caltech.edu/docs/acknowledge.html).
+
+**Submission check:** The team still needs to verify the individual data values and sources, and confirm that at least one NASA resource listed in this specific challenge's Resources tab is meaningfully used. A citation alone does not establish eligibility.
+
+### Software and external resources
+
+- [React and React DOM](https://github.com/facebook/react/blob/main/LICENSE) — UI library; MIT license.
+- [Vite](https://github.com/vitejs/vite/blob/main/LICENSE) and [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/LICENSE) — build tools; MIT licenses. `package-lock.json` records transitive dependencies; their individual licenses also apply.
+- [DM Sans](https://github.com/google/fonts/blob/main/ofl/dmsans/OFL.txt), [DM Mono](https://github.com/google/fonts/blob/main/ofl/dmmono/OFL.txt), and [Space Grotesk](https://github.com/google/fonts/blob/main/ofl/spacegrotesk/OFL.txt) — fonts loaded through Google Fonts; SIL Open Font License 1.1.
+- [Shields.io](https://shields.io/) — README badges. The game uses procedurally drawn visuals and synthesized audio; any additional external assets should be attributed by the team.
 
 ---
 
@@ -65,7 +81,7 @@ Inspired by *Spaceflight Simulator* and *Kerbal Space Program*, the customizatio
 ### Installation & Launch
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/mirage-horizon.git
+git clone https://github.com/Botgaming002/mirage-horizon.git
 cd mirage-horizon
 
 # Install dependencies
@@ -115,4 +131,8 @@ mirage-horizon/
 ## 📜 Credits & License
 
 - Created for the **NASA Space Apps Challenge**.
-- Distributed under the **MIT License**.
+- The previous README identified the project license as MIT, but the repository currently has no `LICENSE` file. The team should confirm the intended license and rights, then add the full license text. Third-party resources retain their own licenses and conditions.
+
+### AI disclosure
+
+OpenWork's AI assistant helped with repository redesign/deployment and README documentation. The team should document any other AI tools or contributions used in creating the submitted game.
