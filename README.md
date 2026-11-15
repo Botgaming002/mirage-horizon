@@ -7,7 +7,7 @@
 
 **MIRAGE HORIZON** is an interactive, browser-playable space mission design game created for the **NASA Space Apps Challenge: Space Mission Design Game**.
 
-Instead of a passive website, *Mirage Horizon* puts the player in the role of Mission Commander to design, launch, and execute a deep-space expedition to the **Solar Gravitational Lens (SGL)** focal line at **650 AU**. Utilizing our Sun's massive gravitational field as a natural cosmic magnifying glass, the mission seeks to resolve humanity's first surface portrait and atmospheric biosignatures of a distant exoplanet.
+Instead of a passive website, *Mirage Horizon* puts the player in the role of Mission Commander to design, launch, and execute a deep-space expedition to the **Solar Gravitational Lens (SGL)** focal line at **650 AU**. Utilizing our Sun's massive gravitational field as a natural cosmic magnifying glass, the mission seeks to resolve humanity's first surface portrait and atmospheric biosignatures of a distant exoplanet,to play on github page please visit https://botgaming002.github.io/mirage-horizon/.
 
 ---
 
