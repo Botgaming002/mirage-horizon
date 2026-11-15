@@ -1,6 +1,7 @@
 # 🚀 MIRAGE HORIZON: Solar Gravitational Lens Mission Simulator
 
 [![NASA Space Apps Challenge](https://img.shields.io/badge/NASA%20Space%20Apps-Challenge%20Project-0b3d91.svg)](https://www.spaceappschallenge.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![React 18](https://img.shields.io/badge/React-18.3-61dafb.svg)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-6.0-646cff.svg)](https://vitejs.dev/)
 
@@ -61,6 +62,8 @@ Inspired by *Spaceflight Simulator* and *Kerbal Space Program*, the customizatio
 The target catalog is a starting point, not an observation feed. Habitability scores, atmosphere descriptions, rocket-part specifications, orbital paths, reconstructions and mission outcomes are game models or narrative assumptions. The displayed planet images and biosignatures are **not evidence of a real exoplanet surface or life**.
 
 **Archive acknowledgment:** This project refers to the NASA Exoplanet Archive, operated by the California Institute of Technology under contract with NASA under the Exoplanet Exploration Program. See the [archive's requested acknowledgment and citation](https://exoplanetarchive.ipac.caltech.edu/docs/acknowledge.html).
+
+**Source count:** The code explicitly attributes target parameters to one NASA dataset: the Exoplanet Archive's Planetary Systems Table. The Voyager distance is a fixed illustrative milestone, not a second dataset or live feed. The dataset's individual values and provenance have not been fully verified; for example, the game's 2.3 Earth-mass value for L 98-59 d differs from the current composite table's 1.64 Earth masses (checked November 15, 2026). Catalog solutions and estimates can differ.
 
 **Submission check:** The team still needs to verify the individual data values and sources, and confirm that at least one NASA resource listed in this specific challenge's Resources tab is meaningfully used. A citation alone does not establish eligibility.
 
@@ -131,7 +134,7 @@ mirage-horizon/
 ## 📜 Credits & License
 
 - Created for the **NASA Space Apps Challenge**.
-- The previous README identified the project license as MIT, but the repository currently has no `LICENSE` file. The team should confirm the intended license and rights, then add the full license text. Third-party resources retain their own licenses and conditions.
+- Original project code is available under the [MIT License](LICENSE). Third-party resources retain their own licenses and conditions.
 
 ### AI disclosure
 
